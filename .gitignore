@@ -1,0 +1,12 @@
+eclipse
+.*.cmd
+*.ko
+*.o
+*.symvers
+*.mod.c
+.project
+.cproject
+.settings
+.*.swp
+.tmp_versions
+context_manager
