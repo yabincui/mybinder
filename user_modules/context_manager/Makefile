@@ -2,7 +2,7 @@
 OBJS := context_manager.o
 
 CXX := g++
-CFLAGS :=
+CFLAGS := -I../../kernel_module
 
 context_manager: $(OBJS)
 	$(CXX) $(CFLAGS) -o $@ $^	
